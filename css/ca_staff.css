@@ -1,0 +1,6 @@
+/* Context Admin Staff CSS */
+  /* Template One */
+  #ca-staff-template-one .view-display-id-panel_pane_1 .views-view-grid td {text-align: center; vertical-align: bottom; width: 25%;}
+  #ca-staff-template-one .view-display-id-panel_pane_1 .views-view-grid .views-field-field-ca-staff-title-value {font-style: italic; font-size: 11px; color: #808080;}
+  #ca-staff-template-one .field-field-ca-staff-picture {float: left; margin-right: 10px;}
+  #ca-staff-template-one .field-field-ca-staff-title {float: left; clear: left; margin-right: 10px; width: 200px; text-align: center; font-size: 11px; font-style: italic; color: #808080;}
