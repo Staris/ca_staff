@@ -152,7 +152,7 @@ function ca_staff_default_page_manager_handlers() {
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
 
-  $export['node_view_panel_context'] = $handler;
+  $export['ca_staff_node_view_panel_context'] = $handler;
   return $export;
 }
 
