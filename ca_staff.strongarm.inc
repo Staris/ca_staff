@@ -61,18 +61,18 @@ function ca_staff_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'weight_node_types';
+  $strongarm->name = 'weight_node_types_ca_staff';
   $strongarm->value = array(
     'ca_staff' => 'ca_staff',
   );
 
-  $export['weight_node_types'] = $strongarm;
+  $export['weight_node_types_ca_staff'] = $strongarm;
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'weight_range';
+  $strongarm->name = 'weight_range_ca_staff';
   $strongarm->value = '90';
 
-  $export['weight_range'] = $strongarm;
+  $export['weight_range_ca_staff'] = $strongarm;
   return $export;
 }
